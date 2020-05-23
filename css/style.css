@@ -2,16 +2,16 @@
 
 * {
 	box-sizing: border-box;
+	font-family: Helvetica;
 }
 
-h1 {
-	font-family: Trebuchet MS;	
+h1 {	
 	color: black;
 }
 
 body {
 	background-image: url("background.jpg");
-	background-color: white;
+	background-color: lightgrey;
 
 }
 
@@ -31,88 +31,61 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #708090;
+	background-color: grey;
 	width: 100%;
-	height: auto;
-	font-family: Trebuchet MS;	
-	color: black;
+	height: auto;	
+	color: white;
 	position: relative;
 	overflow: auto;
 }
 
-#chicken {
+#chicken , #beef ,#sushi {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Trebuchet MS;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: pink;
+	background-color: maroon;
+}
+#chicken{
+	background-color: maroon;
+
 }
 
 #beef {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Trebuchet MS;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
 	background-color: red;
 }
 
 #sushi {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Trebuchet MS;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: blue;
-	color: white;
-	padding: 5px;
+background-color: yellow;
+color: black;
 }
 
-#chicken-div {
+#chicken-div, #beef-div, #sushi-div  {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
 
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #FF69B4;
+  color:black;
 }
 
 #header-nav {
   border: 0;
-  background-color: orange;
+  background-color: grey;
   color: black;
   font-color:black;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid red;
+  border: 1px solid black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -120,20 +93,21 @@ section {
 }
 
 .nav-header {
-  background-color: #FFFFFF;
+  background-color: black;
 }
 
 .nav-brand {
   color: black;
-  font-size: 1.5em;
+  float: left;
+  font-size: 1em;
 }
 
 #nav-list {
-  color: white;
+  color: black;
 }
 
 hr {
-  border-color: white;
+  border-color: black;
 }
 
 .item {
